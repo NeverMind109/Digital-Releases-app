@@ -9,5 +9,21 @@
     <link rel="stylesheet" href="css/style.css" />
     <script src="js/script.js" defer></script>
   </head>
-  <body class="page__body"></body>
+  <body class="page__body">
+    <div class="app">
+      <div class="container app__container">
+        <h1 class="app__title">
+          Цифровые релизы, <span class="month"></span>
+          <span class="year"></span>г.
+        </h1>
+        <div class="app__error">
+          Ошибка запроса: неверный url или закончились ежесуточные запросы
+        </div>
+        <div class="app__loading">Загрузка...</div>
+        <ul class="list-reset app__pagination"></ul>
+        <ul class="list-reset app__list"></ul>
+        <ul class="list-reset app__pagination"></ul>
+      </div>
+    </div>
+  </body>
 </html>
